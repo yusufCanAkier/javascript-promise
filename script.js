@@ -1,59 +1,5 @@
 const box = document.querySelector('.box')
 
-// /* Callback Hell
-// setTimeout(() =>{
-//     box.classList.add('bigger')
-//     setTimeout(() =>{
-//         box.classList.add('circle')
-//         setTimeout(()=>{
-//             box.classList.add('move')
-//             setTimeout(()=>{
-//                 box.classList.add('colored')
-//                 setTimeout(()=>{
-//                     box.classList.remove('colored')
-//                     setTimeout(()=>{
-//                         box.classList.remove('move')
-//                         setTimeout.apply(()=>{
-//                             box.classList.remove('circle')
-//                             setTimeout(()=>{
-//                                 box.classList.remove('bigger')
-//                             })
-//                         })
-//                     })
-//                 })
-//             })
-//         },500)
-//     },500)
-// }, 500)
-// */
-// let loadingBar = false;
-// /*
-// new Promise((resolve, reject)=> {
-//     //if operations done and succesed
-//     resolve({
-//         name: 'Yusuf',
-//         surname: 'Akier'
-//     })
-//     // if operations wrong
-//     reject('not resolved');
-// })
-// .then(data => {
-//     data.web = 'https://gamesunited.co'
-//     return data
-// })
-// .then(data => {
-//     console.log(data)
-// })
-// .catch(data => {
-//     console.log(data)
-// })
-// .finally(() => {
-//     loadingBar = true;
-//     console.log('Already finished')
-// })
-// */
-
-// /*
 // wait is a function (variable func)
 const wait = ms => new Promise(resolve => setTimeout(resolve, ms))
 
